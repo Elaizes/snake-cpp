@@ -36,13 +36,16 @@ If You use MacOS You can install [newcurses][ncurses] with [homebrew][brew] simp
 
 ##### Unix-like OS
 Short answer: _It depends._  
-For example, if You are using Ubuntu You can install [newcurses][ncurses] and [g++][compiler] by
+For example, if You are using Debian/Ubuntu or similar systems(Linux MInt, Pop_OS, MX Linux), You can install [newcurses][ncurses] and [g++][compiler] by
 
     sudo apt-get install libncurses5-dev libncursesw5-dev clang
 
 If You say _I use Arch btw_ often, You can try
 
     sudo pacman -S ncurses g++
+If You are using Solus Linux, You can install basic development metapackage by
+
+    sudo eopkg install -c system.devel
 
 If Your distro isn't mentioned here, try to use [google](https://www.google.com):
 
@@ -72,7 +75,7 @@ It will create the game executable `snake` in the `build/` direcotry and build t
 - Open the terminal window not smaller than 42 lines by 80 columns
 - To start the game You can execute
     ```
-    ./build/shanke
+    ./build/snake
     ```
     in the git directory root. 
 
